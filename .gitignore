@@ -1,0 +1,6 @@
+.nextflow.log*
+.ipynb_checkpoints/
+**/*.ipynb_checkpoints/
+.nextflow/
+results/
+work/

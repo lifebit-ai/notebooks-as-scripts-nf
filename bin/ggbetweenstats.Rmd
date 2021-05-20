@@ -1,0 +1,30 @@
+---
+params:
+  year:  "example_year"
+  plot_type: "example_plot_type"
+  continent_to_exclude: "continent_to_exclude_example"
+---
+
+The function `ggstatsplot::ggbetweenstats` is designed to facilitate 
+**data exploration**, and for making highly customizable **publication-ready plots**,
+with relevant statistical details included in the plot itself if desired. We
+will see examples of how to use this function in this vignette.
+
+To begin with, here are some instances where you would want to use
+`ggbetweenstats`-
+
+ - to check if a continuous variable differs across multiple groups/conditions
+ - to compare distributions visually and check for outliers
+
+**Note**: This vignette uses the pipe operator (`%>%`), if you are not
+familiar with this operator, here is a good explanation:
+<http://r4ds.had.co.nz/pipes.html>
+
+
+```{r }
+params$year
+
+params$plot_type
+
+params$continent_to_exclude
+```
